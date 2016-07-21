@@ -1,40 +1,40 @@
 # running bg
 echo Init foler 
-mkdir ~/home
-mkdir ~/home/music
-mkdir ~/home/video
-mkdir ~/home/document
-mkdir ~/home/program
-mkdir ~/home/etc
+mkdir ~/storage
+mkdir ~/music
+mkdir ~/video
+mkdir ~/document
+mkdir ~/program
+mkdir ~/etc
 
 echo copying mp3
-cp ~/storage/*.mp3  ~/home/music
-rm -f ~/storage/*.mp3
+cp ~/*.mp3  ~/music
+rm -f ~/*.mp3
 echo copying wma to music
-cp ~/storage/*.wma  ~/home/music
-rm -f ~/storage/*.wma
+cp ~/*.wma  ~/music
+rm -f ~/*.wma
 echo copying avi
-cp ~/storage/*.avi  ~/home/video
-rm -f ~/storage/*.avi
+cp ~/*.avi  ~/video
+rm -f ~/*.avi
 echo copying wmv
-cp ~/storage/*.wmv  ~/home/video
-rm -f ~/storage/*.wmv
+cp ~/*.wmv  ~/video
+rm -f ~/*.wmv
 echo copying mkv
-cp ~/storage/*.mkv  ~/home/video
-rm -f ~/storage/*.mkv
+cp ~/*.mkv  ~/video
+rm -f ~/*.mkv
 echo copying hwp
-cp ~/storage/*.hwp  ~/home/document
-rm -f ~/storage/*.hwp
+cp ~/*.hwp  ~/document
+rm -f ~/*.hwp
 echo copying doc
-cp ~/storage/*.doc  ~/home/doc
-rm -f ~/storage/*.doc
+cp ~/*.doc  ~/doc
+rm -f ~/*.doc
 echo copying exe
-cp ~/storage/*.exe  ~/home/program
-rm -f ~/storage/*.exe
+cp ~/*.exe  ~/program
+rm -f ~/*.exe
 echo copying bin
-cp ~/storage/*.bin  ~/home/bin
-rm -f ~/storage/*.bin
+cp ~/*.bin  ~/bin
+rm -f ~/*.bin
 
-cp ~/storage/*  ~/home/etc
-rm -rf ~/storage
+cp ~/*  ~/etc
+
 
